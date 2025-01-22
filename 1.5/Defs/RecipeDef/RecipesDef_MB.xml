@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+  
+    <RecipeDef>
+    <defName>JGH_MakeMechaComponent</defName>
+    <label>dismantle mechanoid</label>
+    <description>Dismantle dead mechanoids to get useful Component.</description>
+    <jobString>Dissecting.</jobString>
+    <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+    <effectWorking>ButcherMechanoid</effectWorking>
+    <soundWorking>Recipe_SmashCorpseMechanoid</soundWorking>
+    <workAmount>2500</workAmount>
+    <ingredients>
+      <li>
+        <filter>
+          <categories>
+            <li>Corpses</li>
+          </categories>
+        </filter>
+        <count>1</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <categories>
+        <li>CorpsesMechanoid</li>
+      </categories>
+    </fixedIngredientFilter>
+    <skillRequirements>
+      <Crafting>6</Crafting>
+    </skillRequirements>
+    <workSkill>Crafting</workSkill>
+	<products>
+      <VFE_ComponentMechanoid>1</VFE_ComponentMechanoid>
+    </products>
+	<specialProducts>
+			<li>Butchery</li>
+	</specialProducts>
+  </RecipeDef>
+  
+  
+</Defs>

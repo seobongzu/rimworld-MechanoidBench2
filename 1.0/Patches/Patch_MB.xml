@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+
+<Patch>
+
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>Save Our Ship 2</li>
+		</mods>
+		<match Class="PatchOperationSequence">
+			<success>Always</success>
+			<operations>			
+
+				<li Class="PatchOperationAdd">
+					<xpath>Defs/ThingDef[defName = "Apparel_MechaArmor"]/apparel/tags</xpath>
+					<value>
+					    <li>Spacer</li>
+						<li>EVA</li>
+					</value>
+				</li>
+				<li Class="PatchOperationReplace">
+					<xpath>Defs/ThingDef[defName = "Apparel_MechaArmor"]/statBases/Insulation_Cold</xpath>
+					<value>
+						<Insulation_Cold>100</Insulation_Cold>
+					</value>
+				</li>
+				
+				<li Class="PatchOperationAdd">
+					<xpath>Defs/ThingDef[defName = "Apparel_MechaHelmet"]/apparel/tags</xpath>
+					<value>
+					    <li>Spacer</li>
+						<li>EVA</li>
+					</value>
+				</li>
+				<li Class="PatchOperationReplace">
+					<xpath>Defs/ThingDef[defName = "Apparel_MechaHelmet"]/statBases/Insulation_Cold</xpath>
+					<value>
+						<Insulation_Cold>50</Insulation_Cold>
+					</value>
+				</li>
+			</operations>
+		</match>
+	</Operation>
+	
+    <Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>Royalty</li>
+		</mods>
+		<match Class="PatchOperationSequence">
+			<success>Always</success>
+			<operations>			
+
+				<li Class="PatchOperationAdd">
+					<xpath>Defs/ThingDef[defName = "Apparel_MechaArmor"]/apparel/tags</xpath>
+					<value>
+					    <li>PrestigeCombatGear</li>
+					</value>
+				</li>
+				
+				<li Class="PatchOperationAdd">
+					<xpath>Defs/ThingDef[defName = "Apparel_MechaHelmet"]/apparel/tags</xpath>
+					<value>
+					    <li>PrestigeCombatGear</li>
+					</value>
+				</li>
+
+			</operations>
+		</match>
+	</Operation>
+
+
+    <Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>Vanilla Factions Expanded - Mechanoids</li>
+		</mods>
+		<match Class="PatchOperationSequence">
+			<success>Always</success>
+			<operations>			
+
+
+				<li Class="PatchOperationReplace">
+					<xpath>Defs/ThingDef[defName = "Apparel_MechaArmor"]/costList/VFE_ComponentMechanoid</xpath>
+					<value>
+						<VFE_ComponentMechanoid>2</VFE_ComponentMechanoid>
+					</value>
+				</li>
+				
+				<li Class="PatchOperationReplace">
+					<xpath>Defs/ThingDef[defName = "Apparel_MechaHelmet"]/costList/VFE_ComponentMechanoid</xpath>
+					<value>
+						<VFE_ComponentMechanoid>1</VFE_ComponentMechanoid>
+					</value>
+				</li>
+
+
+				<li Class="PatchOperationReplace">
+					<xpath>Defs/ThingDef[defName = "Gun_MechaMinigun"]/costList/VFE_ComponentMechanoid</xpath>
+					<value>
+						<VFE_ComponentMechanoid>3</VFE_ComponentMechanoid>
+					</value>
+				</li>
+				
+				<li Class="PatchOperationReplace">
+					<xpath>Defs/ThingDef[defName = "Gun_MechaSniperRifle"]/costList/VFE_ComponentMechanoid</xpath>
+					<value>
+						<VFE_ComponentMechanoid>2</VFE_ComponentMechanoid>
+					</value>
+				</li>
+
+				<li Class="PatchOperationReplace">
+					<xpath>Defs/ThingDef[defName = "JGH_MechaBionicEye"]/costList/VFE_ComponentMechanoid</xpath>
+					<value>
+						<VFE_ComponentMechanoid>1</VFE_ComponentMechanoid>
+					</value>
+				</li>
+
+				<li Class="PatchOperationReplace">
+					<xpath>Defs/ThingDef[defName = "JGH_MechaBionicArm"]/costList/VFE_ComponentMechanoid</xpath>
+					<value>
+						<VFE_ComponentMechanoid>1</VFE_ComponentMechanoid>
+					</value>
+				</li>
+				
+								<li Class="PatchOperationReplace">
+					<xpath>Defs/ThingDef[defName = "JGH_MechaBionicLeg"]/costList/VFE_ComponentMechanoid</xpath>
+					<value>
+						<VFE_ComponentMechanoid>1</VFE_ComponentMechanoid>
+					</value>
+				</li>
+				
+								<li Class="PatchOperationReplace">
+					<xpath>Defs/ThingDef[defName = "JGH_MechaBionicSpine"]/costList/VFE_ComponentMechanoid</xpath>
+					<value>
+						<VFE_ComponentMechanoid>1</VFE_ComponentMechanoid>
+					</value>
+				</li>
+				
+			<li Class="PatchOperationReplace">
+					<xpath>Defs/ThingDef[defName = "JGH_MechaBionicHeart"]/costList/VFE_ComponentMechanoid</xpath>
+					<value>
+						<VFE_ComponentMechanoid>1</VFE_ComponentMechanoid>
+					</value>
+				</li>
+				
+			<li Class="PatchOperationReplace">
+					<xpath>Defs/ThingDef[defName = "JGH_MechaBionicLung"]/costList/VFE_ComponentMechanoid</xpath>
+					<value>
+						<VFE_ComponentMechanoid>1</VFE_ComponentMechanoid>
+					</value>
+				</li>
+				
+			<li Class="PatchOperationReplace">
+					<xpath>Defs/ThingDef[defName = "JGH_MechaBionicKidney"]/costList/VFE_ComponentMechanoid</xpath>
+					<value>
+						<VFE_ComponentMechanoid>1</VFE_ComponentMechanoid>
+					</value>
+				</li>
+				
+				<li Class="PatchOperationReplace">
+					<xpath>Defs/RecipeDef[defName = "JGH_MakeMechaComponent"]/ingredients/li/count</xpath>
+					<value>
+						<count>5</count>
+					</value>
+				</li>			
+				
+							
+			</operations>
+		</match>
+	</Operation>
+
+
+
+	
+</Patch>

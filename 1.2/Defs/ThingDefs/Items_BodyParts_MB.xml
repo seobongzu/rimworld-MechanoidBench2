@@ -1,0 +1,203 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+
+  <ThingDef Name="BodyPartMBBionicBase" ParentName="BodyPartBase" Abstract="True">
+    <techLevel>Spacer</techLevel>
+    <thingCategories>
+      <li>BodyPartsBionic</li>
+    </thingCategories>
+    <graphicData>
+      <texPath>Things/Item/Health/HealthItem</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>0.80</drawSize>
+      <color>(189,169,118)</color>
+    </graphicData>
+    <tradeTags>
+      <li>Bionic</li>
+    </tradeTags>
+    <costList>
+	  <VFE_ComponentMechanoid>5</VFE_ComponentMechanoid>
+      <ComponentSpacer>4</ComponentSpacer>
+	  <Plasteel>15</Plasteel>
+    </costList>	
+    <techHediffsTags>
+      <li>Advanced</li>
+    </techHediffsTags>
+    <statBases>
+      <WorkToMake>26000</WorkToMake>
+    </statBases>
+    <recipeMaker>
+      <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+      <workSkill>Crafting</workSkill>
+      <effectWorking>Smith</effectWorking>
+      <soundWorking>Recipe_Smith</soundWorking>
+      <unfinishedThingDef>UnfinishedHealthItemBionic</unfinishedThingDef>
+      <skillRequirements>
+        <Crafting>10</Crafting>
+      </skillRequirements>
+      <researchPrerequisite>JGH_MechanoidResearch_Bionic</researchPrerequisite>
+      <recipeUsers>
+        <li>JGH_Mechanoid_Bench</li>
+      </recipeUsers>
+    </recipeMaker>
+  </ThingDef>
+
+
+  <ThingDef ParentName="BodyPartMBBionicBase">
+    <defName>JGH_MechaBionicEye</defName>
+    <label>mecha bionic lens</label>
+    <description>Bionic eye improved with mechanoid components. Improved shooting accuracy by mimicking the Lancer's visual sensor.</description>
+	<descriptionHyperlinks><RecipeDef>InstallMechaBionicEye</RecipeDef></descriptionHyperlinks>
+	
+    <statBases>
+	  <MarketValue>1500</MarketValue>
+      <Mass>0.1</Mass>
+    </statBases>
+  </ThingDef>
+
+
+  <ThingDef ParentName="BodyPartMBBionicBase">
+    <defName>JGH_MechaBionicEar</defName>
+    <label>mecha bionic ear</label>
+    <description>Bionic ears improved with mechanoid components. By mimicking scyther's auditory sensor, it helps to quickly read the opponent's movements in close combat.</description>
+	<descriptionHyperlinks><RecipeDef>InstallMechaBionicEar</RecipeDef></descriptionHyperlinks>
+	
+    <statBases>
+	  <MarketValue>1500</MarketValue>
+      <Mass>0.1</Mass>
+    </statBases>
+  </ThingDef>
+
+
+  <ThingDef ParentName="BodyPartMBBionicBase">
+    <defName>JGH_MechaBionicTongue</defName>
+    <label>mecha bionic tongue</label>
+    <description>Bionic tongue improved with mechanoid components to enhance negotiation ability.</description>
+	<descriptionHyperlinks><RecipeDef>InstallMechaBionicTongue</RecipeDef></descriptionHyperlinks>
+	
+    <statBases>
+	  <MarketValue>1500</MarketValue>
+      <Mass>0.1</Mass>
+    </statBases>
+  </ThingDef>
+
+
+  <ThingDef ParentName="BodyPartMBBionicBase">
+    <defName>JGH_MechaBionicJaw</defName>
+    <label>mecha bionic jaw</label>
+    <description>Bionic jaw improved with mechanoid components for fast eating.</description>
+	<descriptionHyperlinks><RecipeDef>InstallMechaBionicJaw</RecipeDef></descriptionHyperlinks>
+	
+    <statBases>
+	  <MarketValue>1500</MarketValue>
+      <Mass>0.1</Mass>
+    </statBases>
+  </ThingDef>
+
+
+ <ThingDef ParentName="BodyPartMBBionicBase">
+    <defName>JGH_MechaBionicArm</defName>
+    <label>mecha bionic arm</label>
+    <description>Bionic Arm improved with mechanoid components. The structure optimized for shooting improves shooting speed.</description>
+	<descriptionHyperlinks><RecipeDef>InstallMechaBionicArm</RecipeDef></descriptionHyperlinks>
+	
+    <statBases>
+	  <MarketValue>1500</MarketValue>
+      <Mass>5</Mass>
+    </statBases>
+  </ThingDef>
+  
+  
+   <ThingDef ParentName="BodyPartMBBionicBase">
+    <defName>JGH_MechaBionicLeg</defName>
+    <label>mecha bionic leg</label>
+    <description>Bionic leg improved with mechanoid components for improved movement speed.</description>
+	<descriptionHyperlinks><RecipeDef>InstallMechaBionicLeg</RecipeDef></descriptionHyperlinks>
+	
+    <statBases>
+	  <MarketValue>1500</MarketValue>
+      <Mass>8</Mass>
+    </statBases>
+  </ThingDef>
+  
+   
+   <ThingDef ParentName="BodyPartMBBionicBase">
+    <defName>JGH_MechaBionicSpine</defName>
+    <label>mecha bionic spine</label>
+    <description>Bionic spine improved with mechanoid components. Imitated the mechanical structure of a mechanoid.</description>
+	<descriptionHyperlinks><RecipeDef>InstallMechaBionicSpine</RecipeDef></descriptionHyperlinks>
+	
+    <statBases>
+	  <MarketValue>1500</MarketValue>
+      <Mass>2</Mass>
+    </statBases>
+  </ThingDef>
+  
+
+   <ThingDef ParentName="BodyPartMBBionicBase">
+    <defName>JGH_MechaBionicHeart</defName>
+    <label>mecha bionic heart</label>
+    <description>Bionic heart improved with mechanoid components. It helps the soldier to endure to the end in extreme combat situations.</description>
+	<descriptionHyperlinks><RecipeDef>InstallMechaBionicHeart</RecipeDef></descriptionHyperlinks>
+	
+    <statBases>
+	  <MarketValue>1500</MarketValue>
+      <Mass>0.8</Mass>
+    </statBases>
+  </ThingDef>
+  
+ 
+    <ThingDef ParentName="BodyPartMBBionicBase">
+    <defName>JGH_MechaBionicLiver</defName>
+    <label>mecha bionic liver</label>
+    <description>Bionic liver improved with mechanoid components. Reduces the chance of food poisoning.</description>
+	<descriptionHyperlinks><RecipeDef>InstallMechaBionicLiver</RecipeDef></descriptionHyperlinks>
+	
+    <statBases>
+	  <MarketValue>1500</MarketValue>
+      <Mass>0.8</Mass>
+    </statBases>
+  </ThingDef>
+
+
+   <ThingDef ParentName="BodyPartMBBionicBase">
+    <defName>JGH_MechaBionicStomach</defName>
+    <label>mecha bionic stomach</label>
+    <description>Bionic stomach improved with mechanoid components. Makes users less hungry.</description>
+	<descriptionHyperlinks><RecipeDef>InstallMechaBionicStomach</RecipeDef></descriptionHyperlinks>
+	
+    <statBases>
+	  <MarketValue>1500</MarketValue>
+      <Mass>0.8</Mass>
+    </statBases>
+  </ThingDef>
+
+
+   <ThingDef ParentName="BodyPartMBBionicBase">
+    <defName>JGH_MechaBionicLung</defName>
+    <label>mecha bionic lung</label>
+    <description>Bionic lung improved with mechanoid components to greatly reduce toxicity sensitivity.</description>
+	<descriptionHyperlinks><RecipeDef>InstallMechaBionicLung</RecipeDef></descriptionHyperlinks>
+	
+    <statBases>
+	  <MarketValue>1500</MarketValue>
+      <Mass>0.8</Mass>
+    </statBases>
+  </ThingDef>
+
+
+   <ThingDef ParentName="BodyPartMBBionicBase">
+    <defName>JGH_MechaBionicKidney</defName>
+    <label>mecha bionic kidney</label>
+    <description>Bionic kidney improved with mechanoid components to increase the rate of antibody production.</description>
+	<descriptionHyperlinks><RecipeDef>InstallMechaBionicKidney</RecipeDef></descriptionHyperlinks>
+	
+    <statBases>
+	  <MarketValue>1500</MarketValue>
+      <Mass>0.8</Mass>
+    </statBases>
+  </ThingDef>
+
+
+</Defs>

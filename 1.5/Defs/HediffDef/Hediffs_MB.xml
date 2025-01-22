@@ -1,0 +1,283 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <!-- Bionic -->
+  <HediffDef ParentName="AddedBodyPartBase">
+    <defName>JGH_MechaBionicEye</defName>
+    <label>mecha bionic lens</label>
+    <labelNoun>a mecha bionic lens</labelNoun>
+    <description>An installed mecha bionic lens.</description>
+    <descriptionHyperlinks><ThingDef>JGH_MechaBionicEye</ThingDef></descriptionHyperlinks>
+    <spawnThingOnRemoved>JGH_MechaBionicEye</spawnThingOnRemoved>
+    <addedPartProps>
+      <solid>true</solid>
+      <partEfficiency>1.25</partEfficiency>
+      <betterThanNatural>true</betterThanNatural>
+    </addedPartProps>
+	<stages>
+	  <li>
+        <statOffsets> 
+          <ShootingAccuracyPawn>2</ShootingAccuracyPawn>
+        </statOffsets>
+      </li>
+    </stages>
+  </HediffDef>
+ 
+ 
+   <HediffDef ParentName="AddedBodyPartBase">
+    <defName>JGH_MechaBionicEar</defName>
+    <label>mecha bionic ear</label>
+    <labelNoun>a mecha bionic ear</labelNoun>
+    <description>An installed mecha bionic ear.</description>
+    <descriptionHyperlinks><ThingDef>JGH_MechaBionicEar</ThingDef></descriptionHyperlinks>
+    <spawnThingOnRemoved>JGH_MechaBionicEar</spawnThingOnRemoved>
+    <addedPartProps>
+      <solid>true</solid>
+      <partEfficiency>1.25</partEfficiency>
+      <betterThanNatural>true</betterThanNatural>
+    </addedPartProps>
+	<stages>
+	  <li>
+        <statOffsets> 
+          <MeleeDodgeChance>0.2</MeleeDodgeChance>
+        </statOffsets>
+      </li>
+    </stages>
+  </HediffDef>
+ 
+ 
+    <HediffDef ParentName="AddedBodyPartBase">
+    <defName>JGH_MechaBionicTongue</defName>
+    <label>mecha bionic tongue</label>
+    <labelNoun>a mecha bionic tongue</labelNoun>
+    <description>An installed mecha bionic tongue.</description>
+    <descriptionHyperlinks><ThingDef>JGH_MechaBionicTongue</ThingDef></descriptionHyperlinks>
+    <spawnThingOnRemoved>JGH_MechaBionicTongue</spawnThingOnRemoved>
+    <addedPartProps>
+      <solid>true</solid>
+      <partEfficiency>1.25</partEfficiency>
+      <betterThanNatural>true</betterThanNatural>
+    </addedPartProps>
+	<stages>
+	  <li>
+        <statOffsets> 
+          <NegotiationAbility>0.1</NegotiationAbility>
+        </statOffsets>
+      </li>
+    </stages>
+  </HediffDef>
+ 
+ 
+    <HediffDef ParentName="AddedBodyPartBase">
+    <defName>JGH_MechaBionicJaw</defName>
+    <label>mecha bionic jaw</label>
+    <labelNoun>a mecha bionic jaw</labelNoun>
+    <description>An installed mecha bionic jaw.</description>
+    <descriptionHyperlinks><ThingDef>JGH_MechaBionicJaw</ThingDef></descriptionHyperlinks>
+    <spawnThingOnRemoved>JGH_MechaBionicJaw</spawnThingOnRemoved>
+    <addedPartProps>
+      <solid>true</solid>
+      <partEfficiency>1.25</partEfficiency>
+      <betterThanNatural>true</betterThanNatural>
+    </addedPartProps>
+	<stages>
+	  <li>
+        <statOffsets> 
+          <EatingSpeed>0.1</EatingSpeed>
+        </statOffsets>
+      </li>
+    </stages>
+  </HediffDef>
+ 
+ 
+   <HediffDef ParentName="AddedBodyPartBase">
+    <defName>JGH_MechaBionicArm</defName>
+    <label>mecha bionic arm</label>
+    <labelNoun>a mecha bionic arm</labelNoun>
+    <description>An installed mecha bionic arm.</description>
+    <descriptionHyperlinks><ThingDef>JGH_MechaBionicArm</ThingDef></descriptionHyperlinks>
+    <spawnThingOnRemoved>JGH_MechaBionicArm</spawnThingOnRemoved>
+	
+	<comps>
+      <li Class="HediffCompProperties_VerbGiver">
+        <tools>
+          <li>
+            <capacities>
+              <li>Blunt</li>
+			  <li>Poke</li>
+            </capacities>
+            <power>13</power>
+            <cooldownTime>2</cooldownTime>
+            <soundMeleeHit>MeleeHit_BionicPunch</soundMeleeHit>
+            <soundMeleeMiss>MeleeMiss_BionicPunch</soundMeleeMiss>
+          </li>
+        </tools>
+      </li>
+    </comps>
+	
+    <addedPartProps>
+      <solid>true</solid>
+      <partEfficiency>1.25</partEfficiency>
+      <betterThanNatural>true</betterThanNatural>
+    </addedPartProps>
+	<stages>
+	  <li>
+        <statOffsets> 
+          <AimingDelayFactor>-0.1</AimingDelayFactor>
+        </statOffsets>
+      </li>
+    </stages>
+  </HediffDef>
+
+
+   <HediffDef ParentName="AddedBodyPartBase">
+    <defName>JGH_MechaBionicLeg</defName>
+    <label>mecha bionic leg</label>
+    <labelNoun>a mecha bionic leg</labelNoun>
+    <description>An installed mecha bionic leg.</description>
+    <descriptionHyperlinks><ThingDef>JGH_MechaBionicLeg</ThingDef></descriptionHyperlinks>
+    <spawnThingOnRemoved>JGH_MechaBionicLeg</spawnThingOnRemoved>
+    <addedPartProps>
+      <solid>true</solid>
+      <partEfficiency>1.25</partEfficiency>
+      <betterThanNatural>true</betterThanNatural>
+    </addedPartProps>
+	<stages>
+	  <li>
+        <statOffsets> 
+          <MoveSpeed>0.1</MoveSpeed>
+        </statOffsets>
+      </li>
+    </stages>
+  </HediffDef>
+
+
+   <HediffDef ParentName="AddedBodyPartBase">
+    <defName>JGH_MechaBionicSpine</defName>
+    <label>mecha bionic spine</label>
+    <labelNoun>a mecha bionic spine</labelNoun>
+    <description>An installed mecha bionic spine.</description>
+    <descriptionHyperlinks><ThingDef>JGH_MechaBionicSpine</ThingDef></descriptionHyperlinks>
+    <spawnThingOnRemoved>JGH_MechaBionicSpine</spawnThingOnRemoved>
+    <addedPartProps>
+      <solid>true</solid>
+      <partEfficiency>1.00</partEfficiency>
+      <betterThanNatural>true</betterThanNatural>
+    </addedPartProps>
+	<stages>
+	  <li>
+        <statOffsets> 
+          <WorkSpeedGlobal>0.1</WorkSpeedGlobal>
+        </statOffsets>
+      </li>
+    </stages>
+  </HediffDef>
+
+
+   <HediffDef ParentName="AddedBodyPartBase">
+    <defName>JGH_MechaBionicHeart</defName>
+    <label>mecha bionic heart</label>
+    <labelNoun>a mecha bionic heart</labelNoun>
+    <description>An installed mecha bionic heart.</description>
+    <descriptionHyperlinks><ThingDef>JGH_MechaBionicHeart</ThingDef></descriptionHyperlinks>
+    <spawnThingOnRemoved>JGH_MechaBionicHeart</spawnThingOnRemoved>
+    <addedPartProps>
+      <solid>true</solid>
+      <partEfficiency>1.25</partEfficiency>
+      <betterThanNatural>true</betterThanNatural>
+    </addedPartProps>
+	<stages>
+	  <li>
+        <statOffsets> 
+          <PainShockThreshold>0.15</PainShockThreshold>
+        </statOffsets>
+      </li>
+    </stages>
+  </HediffDef>
+
+
+   <HediffDef ParentName="AddedBodyPartBase">
+    <defName>JGH_MechaBionicLiver</defName>
+    <label>mecha bionic liver</label>
+    <labelNoun>a mecha bionic liver</labelNoun>
+    <description>An installed mecha bionic liver.</description>
+    <descriptionHyperlinks><ThingDef>JGH_MechaBionicLiver</ThingDef></descriptionHyperlinks>
+    <spawnThingOnRemoved>JGH_MechaBionicLiver</spawnThingOnRemoved>
+    <addedPartProps>
+      <solid>true</solid>
+      <partEfficiency>1.25</partEfficiency>
+      <betterThanNatural>true</betterThanNatural>
+    </addedPartProps>
+	<stages>
+	  <li>
+          <foodPoisoningChanceFactor>0.85</foodPoisoningChanceFactor>
+      </li>
+    </stages>
+  </HediffDef>
+
+
+   <HediffDef ParentName="AddedBodyPartBase">
+    <defName>JGH_MechaBionicStomach</defName>
+    <label>mecha bionic stomach</label>
+    <labelNoun>a mecha bionic stomach</labelNoun>
+    <description>An installed mecha bionic stomach.</description>
+    <descriptionHyperlinks><ThingDef>JGH_MechaBionicStomach</ThingDef></descriptionHyperlinks>
+    <spawnThingOnRemoved>JGH_MechaBionicStomach</spawnThingOnRemoved>
+    <addedPartProps>
+      <solid>true</solid>
+      <partEfficiency>1.25</partEfficiency>
+      <betterThanNatural>true</betterThanNatural>
+    </addedPartProps>
+	<stages>
+	  <li>
+        <hungerRateFactor>0.85</hungerRateFactor>
+      </li>
+    </stages>
+  </HediffDef>
+  
+
+   <HediffDef ParentName="AddedBodyPartBase">
+    <defName>JGH_MechaBionicLung</defName>
+    <label>mecha bionic lung</label>
+    <labelNoun>a mecha bionic lung</labelNoun>
+    <description>An installed mecha bionic lung.</description>
+    <descriptionHyperlinks><ThingDef>JGH_MechaBionicLung</ThingDef></descriptionHyperlinks>
+    <spawnThingOnRemoved>JGH_MechaBionicLung</spawnThingOnRemoved>
+    <addedPartProps>
+      <solid>true</solid>
+      <partEfficiency>1.25</partEfficiency>
+      <betterThanNatural>true</betterThanNatural>
+    </addedPartProps>
+	<stages>
+	  <li>
+        <statOffsets> 
+          <ToxicResistance>0.25</ToxicResistance>
+        </statOffsets>
+      </li>
+    </stages>
+  </HediffDef>
+  
+
+   <HediffDef ParentName="AddedBodyPartBase">
+    <defName>JGH_MechaBionicKidney</defName>
+    <label>mecha bionic kidney</label>
+    <labelNoun>a mecha bionic kidney</labelNoun>
+    <description>An installed mecha bionic kidney.</description>
+    <descriptionHyperlinks><ThingDef>JGH_MechaBionicKidney</ThingDef></descriptionHyperlinks>
+    <spawnThingOnRemoved>JGH_MechaBionicKidney</spawnThingOnRemoved>
+    <addedPartProps>
+      <solid>true</solid>
+      <partEfficiency>1.25</partEfficiency>
+      <betterThanNatural>true</betterThanNatural>
+    </addedPartProps>
+	<stages>
+	  <li>
+        <statOffsets> 
+          <ImmunityGainSpeed>0.1</ImmunityGainSpeed>
+        </statOffsets>
+      </li>
+    </stages>
+  </HediffDef>
+
+
+</Defs>

@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <ResearchProjectDef>
+    <defName>JGH_MechanoidResearch_Bench</defName>
+    <label>mechanoid bench</label>
+    <tab>JGH_MechanoidResearchResearch</tab>
+    <techLevel>Spacer</techLevel>
+    <description>Build a workbench that can craft advanced equipment using components taken from the mechanoid.</description>
+    <baseCost>2000</baseCost>
+    <prerequisites>
+      <li>Fabrication</li>
+    </prerequisites>
+    <requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
+    <requiredResearchFacilities>
+      <li>MultiAnalyzer</li>
+    </requiredResearchFacilities>
+		<researchViewX>0.00</researchViewX>
+		<researchViewY>0.00</researchViewY>
+  </ResearchProjectDef>
+
+  <ResearchProjectDef>
+    <defName>JGH_MechanoidResearch_Armor</defName>
+    <label>mechanoid armor</label>
+    <tab>JGH_MechanoidResearchResearch</tab>
+    <techLevel>Spacer</techLevel>
+    <description>Can use mechanoid components to craft power armor with extreme heat protection.</description>
+    <baseCost>6000</baseCost>
+    <prerequisites>
+      <li>JGH_MechanoidResearch_Bench</li>
+	  <li>PoweredArmor</li>
+    </prerequisites>
+    <requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
+    <requiredResearchFacilities>
+      <li>MultiAnalyzer</li>
+    </requiredResearchFacilities>
+		<researchViewX>1.00</researchViewX>
+		<researchViewY>0.00</researchViewY>
+  </ResearchProjectDef>
+  
+  <ResearchProjectDef>
+    <defName>JGH_MechanoidResearch_Weapon</defName>
+    <label>mechanoid weapon</label>
+    <tab>JGH_MechanoidResearchResearch</tab>
+    <techLevel>Spacer</techLevel>
+    <description>Can use mechanoid components to craft weapon that uses pulse-charged energy.</description>
+    <baseCost>6000</baseCost>
+    <prerequisites>
+      <li>JGH_MechanoidResearch_Bench</li>
+	  <li>ChargedShot</li>
+    </prerequisites>
+    <requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
+    <requiredResearchFacilities>
+      <li>MultiAnalyzer</li>
+    </requiredResearchFacilities>
+		<researchViewX>1.00</researchViewX>
+		<researchViewY>0.70</researchViewY>
+  </ResearchProjectDef>
+
+  <ResearchProjectDef>
+    <defName>JGH_MechanoidResearch_Bionic</defName>
+    <label>mechanoid bionic</label>
+    <tab>JGH_MechanoidResearchResearch</tab>
+    <techLevel>Spacer</techLevel>
+    <description>Can use mechanoid components to make bionics with special ability.</description>
+    <baseCost>6000</baseCost>
+    <prerequisites>
+      <li>JGH_MechanoidResearch_Bench</li>
+	  <li>Bionics</li>
+    </prerequisites>
+    <requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
+    <requiredResearchFacilities>
+      <li>MultiAnalyzer</li>
+    </requiredResearchFacilities>
+		<researchViewX>1.00</researchViewX>
+		<researchViewY>1.40</researchViewY>
+  </ResearchProjectDef>
+
+</Defs>

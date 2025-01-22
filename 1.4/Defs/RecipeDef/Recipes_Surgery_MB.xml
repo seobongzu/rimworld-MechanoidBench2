@@ -1,0 +1,389 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+
+
+
+  <RecipeDef Abstract="True" Name="SurgeryInstallBodyPartMBBase" ParentName="SurgeryInstallBodyPartArtificialBase">
+
+ 	<skillRequirements>
+      <Medicine>8</Medicine>
+    </skillRequirements> 
+    <workAmount>2000</workAmount>
+	
+  </RecipeDef>
+
+
+  <RecipeDef ParentName="SurgeryInstallBodyPartMBBase">
+    <defName>InstallMechaBionicEye</defName>
+    <label>install mecha bionic lens</label>
+    <description>Install a mecha bionic lens.</description>
+    <descriptionHyperlinks>
+      <ThingDef>JGH_MechaBionicEye</ThingDef>
+      <HediffDef>JGH_MechaBionicEye</HediffDef>
+    </descriptionHyperlinks>
+    <jobString>Installing mecha bionic lens.</jobString>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>JGH_MechaBionicEye</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>JGH_MechaBionicEye</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <appliedOnFixedBodyParts>
+      <li>Eye</li>
+    </appliedOnFixedBodyParts>
+    <addsHediff>JGH_MechaBionicEye</addsHediff>
+  </RecipeDef>
+
+
+  <RecipeDef ParentName="SurgeryInstallBodyPartMBBase">
+    <defName>InstallMechaBionicEar</defName>
+    <label>install mecha bionic ear</label>
+    <description>Install a mecha bionic ear.</description>
+    <descriptionHyperlinks>
+      <ThingDef>JGH_MechaBionicEar</ThingDef>
+      <HediffDef>JGH_MechaBionicEar</HediffDef>
+    </descriptionHyperlinks>
+    <jobString>Installing mecha bionic ear.</jobString>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>JGH_MechaBionicEar</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>JGH_MechaBionicEar</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <appliedOnFixedBodyParts>
+      <li>Ear</li>
+    </appliedOnFixedBodyParts>
+    <addsHediff>JGH_MechaBionicEar</addsHediff>
+  </RecipeDef>
+
+
+  <RecipeDef ParentName="SurgeryInstallBodyPartMBBase">
+    <defName>InstallMechaBionicTongue</defName>
+    <label>install mecha bionic tongue</label>
+    <description>Install a mecha bionic tongue.</description>
+    <descriptionHyperlinks>
+      <ThingDef>JGH_MechaBionicTongue</ThingDef>
+      <HediffDef>JGH_MechaBionicTongue</HediffDef>
+    </descriptionHyperlinks>
+    <jobString>Installing mecha bionic tongue.</jobString>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>JGH_MechaBionicTongue</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>JGH_MechaBionicTongue</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <appliedOnFixedBodyParts>
+      <li>Tongue</li>
+    </appliedOnFixedBodyParts>
+    <addsHediff>JGH_MechaBionicTongue</addsHediff>
+  </RecipeDef>
+
+
+  <RecipeDef ParentName="SurgeryInstallBodyPartMBBase">
+    <defName>InstallMechaBionicJaw</defName>
+    <label>install mecha bionic jaw</label>
+    <description>Install a mecha bionic jaw.</description>
+    <descriptionHyperlinks>
+      <ThingDef>JGH_MechaBionicJaw</ThingDef>
+      <HediffDef>JGH_MechaBionicJaw</HediffDef>
+    </descriptionHyperlinks>
+    <jobString>Installing mecha bionic jaw.</jobString>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>JGH_MechaBionicJaw</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>JGH_MechaBionicJaw</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <appliedOnFixedBodyParts>
+      <li>Jaw</li>
+    </appliedOnFixedBodyParts>
+    <addsHediff>JGH_MechaBionicJaw</addsHediff>
+  </RecipeDef>
+  
+  
+  <RecipeDef ParentName="SurgeryInstallBodyPartMBBase">
+    <defName>InstallMechaBionicArm</defName>
+    <label>install mecha bionic arm</label>
+    <description>Install a mecha bionic arm.</description>
+    <descriptionHyperlinks>
+      <ThingDef>JGH_MechaBionicArm</ThingDef>
+      <HediffDef>JGH_MechaBionicArm</HediffDef>
+    </descriptionHyperlinks>
+    <jobString>Installing mecha bionic arm.</jobString>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>JGH_MechaBionicArm</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>JGH_MechaBionicArm</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <appliedOnFixedBodyParts>
+      <li>Shoulder</li>
+    </appliedOnFixedBodyParts>
+    <addsHediff>JGH_MechaBionicArm</addsHediff>
+  </RecipeDef>
+  
+  
+    <RecipeDef ParentName="SurgeryInstallBodyPartMBBase">
+    <defName>InstallMechaBionicLeg</defName>
+    <label>install mecha bionic leg</label>
+    <description>Install a mecha bionic leg.</description>
+    <descriptionHyperlinks>
+      <ThingDef>JGH_MechaBionicLeg</ThingDef>
+      <HediffDef>JGH_MechaBionicLeg</HediffDef>
+    </descriptionHyperlinks>
+    <jobString>Installing mecha bionic leg.</jobString>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>JGH_MechaBionicLeg</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>JGH_MechaBionicLeg</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <appliedOnFixedBodyParts>
+      <li>Leg</li>
+    </appliedOnFixedBodyParts>
+    <addsHediff>JGH_MechaBionicLeg</addsHediff>
+  </RecipeDef>
+  
+  
+    <RecipeDef ParentName="SurgeryInstallBodyPartMBBase">
+    <defName>InstallMechaBionicSpine</defName>
+    <label>install mecha bionic spine</label>
+    <description>Install a mecha bionic spine.</description>
+    <descriptionHyperlinks>
+      <ThingDef>JGH_MechaBionicSpine</ThingDef>
+      <HediffDef>JGH_MechaBionicSpine</HediffDef>
+    </descriptionHyperlinks>
+    <jobString>Installing mecha bionic spine.</jobString>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>JGH_MechaBionicSpine</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>JGH_MechaBionicSpine</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <appliedOnFixedBodyParts>
+      <li>Spine</li>
+    </appliedOnFixedBodyParts>
+    <addsHediff>JGH_MechaBionicSpine</addsHediff>
+  </RecipeDef>  
+  
+ 
+    <RecipeDef ParentName="SurgeryInstallBodyPartMBBase">
+    <defName>InstallMechaBionicHeart</defName>
+    <label>install mecha bionic heart</label>
+    <description>Install a mecha bionic heart.</description>
+    <descriptionHyperlinks>
+      <ThingDef>JGH_MechaBionicHeart</ThingDef>
+      <HediffDef>JGH_MechaBionicHeart</HediffDef>
+    </descriptionHyperlinks>
+    <jobString>Installing mecha bionic heart.</jobString>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>JGH_MechaBionicHeart</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>JGH_MechaBionicHeart</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <appliedOnFixedBodyParts>
+      <li>Heart</li>
+    </appliedOnFixedBodyParts>
+    <addsHediff>JGH_MechaBionicHeart</addsHediff>
+  </RecipeDef>
+
+
+    <RecipeDef ParentName="SurgeryInstallBodyPartMBBase">
+    <defName>InstallMechaBionicLiver</defName>
+    <label>install mecha bionic liver</label>
+    <description>Install a mecha bionic liver.</description>
+    <descriptionHyperlinks>
+      <ThingDef>JGH_MechaBionicLiver</ThingDef>
+      <HediffDef>JGH_MechaBionicLiver</HediffDef>
+    </descriptionHyperlinks>
+    <jobString>Installing mecha bionic liver.</jobString>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>JGH_MechaBionicLiver</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>JGH_MechaBionicLiver</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <appliedOnFixedBodyParts>
+      <li>Liver</li>
+    </appliedOnFixedBodyParts>
+    <addsHediff>JGH_MechaBionicLiver</addsHediff>
+  </RecipeDef>
+
+
+    <RecipeDef ParentName="SurgeryInstallBodyPartMBBase">
+    <defName>InstallMechaBionicStomach</defName>
+    <label>install mecha bionic stomach</label>
+    <description>Install a mecha bionic stomach.</description>
+    <descriptionHyperlinks>
+      <ThingDef>JGH_MechaBionicStomach</ThingDef>
+      <HediffDef>JGH_MechaBionicStomach</HediffDef>
+    </descriptionHyperlinks>
+    <jobString>Installing mecha bionic stomach.</jobString>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>JGH_MechaBionicStomach</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>JGH_MechaBionicStomach</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <appliedOnFixedBodyParts>
+      <li>Stomach</li>
+    </appliedOnFixedBodyParts>
+    <addsHediff>JGH_MechaBionicStomach</addsHediff>
+  </RecipeDef>
+
+ 
+    <RecipeDef ParentName="SurgeryInstallBodyPartMBBase">
+    <defName>InstallMechaBionicLung</defName>
+    <label>install mecha bionic lung</label>
+    <description>Install a mecha bionic lung.</description>
+    <descriptionHyperlinks>
+      <ThingDef>JGH_MechaBionicLung</ThingDef>
+      <HediffDef>JGH_MechaBionicLung</HediffDef>
+    </descriptionHyperlinks>
+    <jobString>Installing mecha bionic lung.</jobString>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>JGH_MechaBionicLung</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>JGH_MechaBionicLung</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <appliedOnFixedBodyParts>
+      <li>Lung</li>
+    </appliedOnFixedBodyParts>
+    <addsHediff>JGH_MechaBionicLung</addsHediff>
+  </RecipeDef>
+  
+  
+      <RecipeDef ParentName="SurgeryInstallBodyPartMBBase">
+    <defName>InstallMechaBionicKidney</defName>
+    <label>install mecha bionic kidney</label>
+    <description>Install a mecha bionic kidney.</description>
+    <descriptionHyperlinks>
+      <ThingDef>JGH_MechaBionicKidney</ThingDef>
+      <HediffDef>JGH_MechaBionicKidney</HediffDef>
+    </descriptionHyperlinks>
+    <jobString>Installing mecha bionic kidney.</jobString>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>JGH_MechaBionicKidney</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>JGH_MechaBionicKidney</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <appliedOnFixedBodyParts>
+      <li>Kidney</li>
+    </appliedOnFixedBodyParts>
+    <addsHediff>JGH_MechaBionicKidney</addsHediff>
+  </RecipeDef>
+
+
+</Defs>
