@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+
+  <InstallMechaBionicEye.label>메카노이드 렌즈 삽입</InstallMechaBionicEye.label>
+  <InstallMechaBionicEye.description>메카노이드 렌즈를 삽입합니다.</InstallMechaBionicEye.description>
+  <InstallMechaBionicEye.jobString>메카노이드 렌즈 삽입 중.</InstallMechaBionicEye.jobString>
+  
+  <InstallMechaBionicArm.label>메카노이드 팔 설치</InstallMechaBionicArm.label>
+  <InstallMechaBionicArm.description>메카노이드 팔을 설치합니다.</InstallMechaBionicArm.description>
+  <InstallMechaBionicArm.jobString>메카노이드 팔 설치 중.</InstallMechaBionicArm.jobString>
+  
+  <InstallMechaBionicLeg.label>메카노이드 다리 설치</InstallMechaBionicLeg.label>
+  <InstallMechaBionicLeg.description>메카노이드 다리를 설치합니다.</InstallMechaBionicLeg.description>
+  <InstallMechaBionicLeg.jobString>메카노이드 다리 설치 중.</InstallMechaBionicLeg.jobString>
+  
+  <InstallMechaBionicLung.label>메카노이드 폐 이식</InstallMechaBionicLung.label>
+  <InstallMechaBionicLung.description>메카노이드 폐를 이식합니다.</InstallMechaBionicLung.description>
+  <InstallMechaBionicLung.jobString>메카노이드 폐 이식 중.</InstallMechaBionicLung.jobString>
+  
+  <InstallMechaBionicHeart.label>메카노이드 심장 이식</InstallMechaBionicHeart.label>
+  <InstallMechaBionicHeart.description>메카노이드 심장을 이식합니다.</InstallMechaBionicHeart.description>
+  <InstallMechaBionicHeart.jobString>메카노이드 심장 이식 중.</InstallMechaBionicHeart.jobString>
+  
+  <InstallMechaBionicSpine.label>메카노이드 척추 설치</InstallMechaBionicSpine.label>
+  <InstallMechaBionicSpine.description>메카노이드 척추를 설치합니다.</InstallMechaBionicSpine.description>
+  <InstallMechaBionicSpine.jobString>메카노이드 척추 설치 중.</InstallMechaBionicSpine.jobString>
+  
+  <InstallMechaBionicKidney.label>메카노이드 신장 이식</InstallMechaBionicKidney.label>
+  <InstallMechaBionicKidney.description>메카노이드 신장을 이식합니다.</InstallMechaBionicKidney.description>
+  <InstallMechaBionicKidney.jobString>메카노이드 신장 이식 중.</InstallMechaBionicKidney.jobString>
+ 
+
+  <InstallMechaBionicTongue.label>메카노이드 혀 설치</InstallMechaBionicTongue.label>
+  <InstallMechaBionicTongue.description>메카노이드 혀를 설치합니다.</InstallMechaBionicTongue.description>
+  <InstallMechaBionicTongue.jobString>메카노이드 혀 설치 중.</InstallMechaBionicTongue.jobString>
+  
+  <InstallMechaBionicJaw.label>메카노이드 턱 설치</InstallMechaBionicJaw.label>
+  <InstallMechaBionicJaw.description>메카노이드 턱을 설치합니다.</InstallMechaBionicJaw.description>
+  <InstallMechaBionicJaw.jobString>메카노이드 폐 설치 중.</InstallMechaBionicJaw.jobString>
+  
+  <InstallMechaBionicLiver.label>메카노이드 간 이식</InstallMechaBionicLiver.label>
+  <InstallMechaBionicLiver.description>메카노이드 간을 이식합니다.</InstallMechaBionicLiver.description>
+  <InstallMechaBionicLiver.jobString>메카노이드 간 이식 중.</InstallMechaBionicLiver.jobString>
+  
+  <InstallMechaBionicStomach.label>메카노이드 위 이식</InstallMechaBionicStomach.label>
+  <InstallMechaBionicStomach.description>메카노이드 위를 이식합니다.</InstallMechaBionicStomach.description>
+  <InstallMechaBionicStomach.jobString>메카노이드 위 이식 중.</InstallMechaBionicStomach.jobString>
+  
+  <InstallMechaBionicEar.label>메카노이드 귀 설치</InstallMechaBionicEar.label>
+  <InstallMechaBionicEar.description>메카노이드 귀를 설치합니다.</InstallMechaBionicEar.description>
+  <InstallMechaBionicEar.jobString>메카노이드 귀 설치 중.</InstallMechaBionicEar.jobString>
+
+
+
+ 
+</LanguageData>

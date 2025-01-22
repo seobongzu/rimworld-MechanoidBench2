@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+
+  <JGH_MakeMechaComponent.label>메카노이드 해체</JGH_MakeMechaComponent.label>
+  <JGH_MakeMechaComponent.description>유용한 부품들을 꺼내기 위해 죽은 메카노이드를 해체합니다.</JGH_MakeMechaComponent.description>
+  <JGH_MakeMechaComponent.jobString>메카노이드 해체 중.</JGH_MakeMechaComponent.jobString>
+  
+</LanguageData>

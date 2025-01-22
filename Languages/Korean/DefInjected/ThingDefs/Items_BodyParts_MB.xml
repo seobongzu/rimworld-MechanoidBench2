@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+
+  <JGH_MechaBionicEye.label>메카노이드 렌즈</JGH_MechaBionicEye.label>
+  <JGH_MechaBionicEye.description>메카노이드 부품으로 개량한 인공 눈입니다. 랜서의 시각 센서를 모방해 사격 정확도를 향상시켰습니다.</JGH_MechaBionicEye.description>
+  
+  <JGH_MechaBionicArm.label>메카노이드 팔</JGH_MechaBionicArm.label>
+  <JGH_MechaBionicArm.description>메카노이드 부품으로 개량한 인공 팔입니다. 사격에 최적화된 구조로 사격 속도를 향상시킵니다.</JGH_MechaBionicArm.description>
+  
+  <JGH_MechaBionicLeg.label>메카노이드 다리</JGH_MechaBionicLeg.label>
+  <JGH_MechaBionicLeg.description>메카노이드 부품으로 개량해 이동 속도를 향상시킨 인공 다리입니다.</JGH_MechaBionicLeg.description>
+  
+  <JGH_MechaBionicLung.label>메카노이드 폐</JGH_MechaBionicLung.label>
+  <JGH_MechaBionicLung.description>메카노이드 부품으로 개량해 독성 민감도를 크게 감소시킨 인공 폐입니다.</JGH_MechaBionicLung.description>
+
+  <JGH_MechaBionicHeart.label>메카노이드 심장</JGH_MechaBionicHeart.label>
+  <JGH_MechaBionicHeart.description>메카노이드 부품으로 개량한 인공 심장입니다. 착용자가 극한의 전투 상황에서 버틸 수 있게 해줍니다.</JGH_MechaBionicHeart.description>
+  
+  <JGH_MechaBionicSpine.label>메카노이드 척추</JGH_MechaBionicSpine.label>
+  <JGH_MechaBionicSpine.description>메카노이드 부품으로 개량한 인공 척추입니다. 메카노이드의 기계 구조를 모방했습니다.</JGH_MechaBionicSpine.description>
+  
+  <JGH_MechaBionicKidney.label>메카노이드 신장</JGH_MechaBionicKidney.label>
+  <JGH_MechaBionicKidney.description>메카노이드 부품으로 개량해 항체 생성 속도를 향상시킨 인공 신장입니다.</JGH_MechaBionicKidney.description>
+
+  <JGH_MechaBionicEar.label>메카노이드 귀</JGH_MechaBionicEar.label>
+  <JGH_MechaBionicEar.description>메카노이드 부품으로 개량한 인공 귀입니다. 사이더의 청각 센서를 모방해 근접 전투에 도움을 줍니다.</JGH_MechaBionicEar.description>
+  
+  <JGH_MechaBionicTongue.label>메카노이드 혀</JGH_MechaBionicTongue.label>
+  <JGH_MechaBionicTongue.description>메카노이드 부품으로 개량한 인공 혀입니다. 착용자의 협상 능력을 향상시킵니다.</JGH_MechaBionicTongue.description>
+
+  <JGH_MechaBionicJaw.label>메카노이드 턱</JGH_MechaBionicJaw.label>
+  <JGH_MechaBionicJaw.description>메카노이드 부품으로 개량한 인공 턱입니다. 착용자의 섭취 속도를 향상시킵니다.</JGH_MechaBionicJaw.description>
+  
+  <JGH_MechaBionicLiver.label>메카노이드 간</JGH_MechaBionicLiver.label>
+  <JGH_MechaBionicLiver.description>메카노이드 부품으로 개량한 인공 간입니다. 식중독 확률을 낮춰줍니다.</JGH_MechaBionicLiver.description>
+  
+  <JGH_MechaBionicStomach.label>메카노이드 위</JGH_MechaBionicStomach.label>
+  <JGH_MechaBionicStomach.description>메카노이드 부품으로 개량한 인공 위입니다. 빠른 허기짐을 방지합니다.</JGH_MechaBionicStomach.description>
+
+</LanguageData>

@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+
+  <JGH_MechaBionicEye.label>메카노이드 렌즈</JGH_MechaBionicEye.label>
+  <JGH_MechaBionicEye.description>메카노이드 렌즈가 설치되어 있습니다.</JGH_MechaBionicEye.description>
+  <JGH_MechaBionicEye.labelNoun>메카노이드 렌즈</JGH_MechaBionicEye.labelNoun>
+  
+  <JGH_MechaBionicArm.label>메카노이드 팔</JGH_MechaBionicArm.label>
+  <JGH_MechaBionicArm.description>메카노이드 팔이 설치되어 있습니다.</JGH_MechaBionicArm.description>
+  <JGH_MechaBionicArm.labelNoun>메카노이드 팔</JGH_MechaBionicArm.labelNoun>
+  
+  <JGH_MechaBionicLeg.label>메카노이드 다리</JGH_MechaBionicLeg.label>
+  <JGH_MechaBionicLeg.description>메카노이드 다리가 설치되어 있습니다.</JGH_MechaBionicLeg.description>
+  <JGH_MechaBionicLeg.labelNoun>메카노이드 다리</JGH_MechaBionicLeg.labelNoun>
+  
+  <JGH_MechaBionicLung.label>메카노이드 폐</JGH_MechaBionicLung.label>
+  <JGH_MechaBionicLung.description>메카노이드 폐가 설치되어 있습니다.</JGH_MechaBionicLung.description>
+  <JGH_MechaBionicLung.labelNoun>메카노이드 폐</JGH_MechaBionicLung.labelNoun>
+  
+  <JGH_MechaBionicHeart.label>메카노이드 심장</JGH_MechaBionicHeart.label>
+  <JGH_MechaBionicHeart.description>메카노이드 심장이 설치되어 있습니다.</JGH_MechaBionicHeart.description>
+  <JGH_MechaBionicHeart.labelNoun>메카노이드 심장</JGH_MechaBionicHeart.labelNoun>
+  
+  <JGH_MechaBionicSpine.label>메카노이드 척추</JGH_MechaBionicSpine.label>
+  <JGH_MechaBionicSpine.description>메카노이드 척추가 설치되어 있습니다.</JGH_MechaBionicSpine.description>
+  <JGH_MechaBionicSpine.labelNoun>메카노이드 척추</JGH_MechaBionicSpine.labelNoun>  
+  
+  <JGH_MechaBionicKidney.label>메카노이드 신장</JGH_MechaBionicKidney.label>
+  <JGH_MechaBionicKidney.description>메카노이드 신장이 설치되어 있습니다.</JGH_MechaBionicKidney.description>
+  <JGH_MechaBionicKidney.labelNoun>메카노이드 신장</JGH_MechaBionicKidney.labelNoun> 
+  
+  <JGH_MechaBionicEar.label>메카노이드 귀</JGH_MechaBionicEar.label>
+  <JGH_MechaBionicEar.description>메카노이드 귀가 설치되어 있습니다.</JGH_MechaBionicEar.description>
+  <JGH_MechaBionicEar.labelNoun>메카노이드 신장</JGH_MechaBionicEar.labelNoun> 
+
+  <JGH_MechaBionicTongue.label>메카노이드 혀</JGH_MechaBionicTongue.label>
+  <JGH_MechaBionicTongue.description>메카노이드 혀가 설치되어 있습니다.</JGH_MechaBionicTongue.description>
+  <JGH_MechaBionicTongue.labelNoun>메카노이드 혀</JGH_MechaBionicTongue.labelNoun> 
+  
+  <JGH_MechaBionicJaw.label>메카노이드 턱</JGH_MechaBionicJaw.label>
+  <JGH_MechaBionicJaw.description>메카노이드 턱이 설치되어 있습니다.</JGH_MechaBionicJaw.description>
+  <JGH_MechaBionicJaw.labelNoun>메카노이드 턱</JGH_MechaBionicJaw.labelNoun> 
+
+  <JGH_MechaBionicLiver.label>메카노이드 간</JGH_MechaBionicLiver.label>
+  <JGH_MechaBionicLiver.description>메카노이드 간이 설치되어 있습니다.</JGH_MechaBionicLiver.description>
+  <JGH_MechaBionicLiver.labelNoun>메카노이드 간</JGH_MechaBionicLiver.labelNoun> 
+
+  <JGH_MechaBionicStomach.label>메카노이드 위</JGH_MechaBionicStomach.label>
+  <JGH_MechaBionicStomach.description>메카노이드 위가 설치되어 있습니다.</JGH_MechaBionicStomach.description>
+  <JGH_MechaBionicStomach.labelNoun>메카노이드 위</JGH_MechaBionicStomach.labelNoun>   
+
+</LanguageData>

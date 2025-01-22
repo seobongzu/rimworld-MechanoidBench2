@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+
+  <Gun_MechaMinigun.label>메카 미니건</Gun_MechaMinigun.label>
+  <Gun_MechaMinigun.description>전자기 탄환을 쏟아내는 다중 총열 기관총으로, 메카노이드 부품으로 개량되어 기존의 미니건보다 훨씬 가볍습니다. 펄스 차지 기술은 각 탄환마다 불안정한 에너지를 충전시켜 피격된 대상의 손상을 크게 증가시킵니다.</Gun_MechaMinigun.description>
+  <Gun_MechaMinigun.tools.0.label>총열들</Gun_MechaMinigun.tools.0.label>
+ 
+  <Bullet_MechaMinigun.label>메카 미니건 총알</Bullet_MechaMinigun.label>
+
+  <Gun_MechaSniperRifle.label>메카 저격소총</Gun_MechaSniperRifle.label>
+  <Gun_MechaSniperRifle.description>전자기 탄환을 발사하는 정밀한 저격소총으로, 메카노이드 부품으로 개량되어 기존의 저격소총보다 훨씬 가볍습니다. 펄스 차지 기술은 각 탄환마다 불안정한 에너지를 충전시켜 피격된 대상의 손상을 크게 증가시킵니다.</Gun_MechaSniperRifle.description>
+  <Gun_MechaSniperRifle.tools.0.label>개머리판</Gun_MechaSniperRifle.tools.0.label>
+  <Gun_MechaSniperRifle.tools.1.label>총열</Gun_MechaSniperRifle.tools.1.label>
+ 
+  <Bullet_MechaSniperRifle.label>메카 저격소총 총알</Bullet_MechaSniperRifle.label>
+ 
+
+</LanguageData>
